@@ -1,0 +1,4 @@
+github "thoughtbot/Argo" "v3.0.1"
+github "thoughtbot/Curry" "v2.3.2"
+github "lyft/mapper" "2.1.0"
+github "johnsundell/unbox" "1.8"

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Intro'/>
+        <page name='Missing JSON fields'/>
+        <page name='Mismatched JSON fields'/>
+        <page name='JSON key paths'/>
+        <page name='Simple enums'/>
+        <page name='Parsing hex value to UIColor'/>
+        <page name='Optional enum property'/>
+        <page name='Struct with Array property'/>
+        <page name='Parsing an Array of JSON'/>
+        <page name='Enum with associated values'/>
+    </pages>
+</playground>

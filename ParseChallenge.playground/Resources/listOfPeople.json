@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "Bob",
+    "goldCoins" : 9,
+    "weapon" : "sword",
+    "food" : ["cabbage", "cabbage", "fish"]
+  },
+  {
+    "name" : "Jill",
+    "goldCoins" : 30,
+    "weapon" : "pointyStick",
+    "food" : ["bread", "bread", "bread"]
+  },
+  {
+    "name" : "Gordon",
+    "goldCoins" : 2,
+    "food" : []
+  }
+]

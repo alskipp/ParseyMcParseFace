@@ -13,6 +13,14 @@
 		E7A66AF61D2FFA0D0020E201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A66AF51D2FFA0D0020E201 /* Assets.xcassets */; };
 		E7A66AF91D2FFA0D0020E201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A66AF71D2FFA0D0020E201 /* LaunchScreen.storyboard */; };
 		E7A66B041D2FFA0D0020E201 /* ParseyMcParseFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A66B031D2FFA0D0020E201 /* ParseyMcParseFaceTests.swift */; };
+		E7AC99581D37AC7100A44E28 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AC99571D37AC7100A44E28 /* Mapper.framework */; };
+		E7AC99591D37AC7100A44E28 /* Mapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7AC99571D37AC7100A44E28 /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7C5EB321D2FFBED009AD837 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB311D2FFBED009AD837 /* Argo.framework */; };
+		E7C5EB331D2FFBED009AD837 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB311D2FFBED009AD837 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7C5EB4F1D3000DD009AD837 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB4E1D3000DD009AD837 /* Curry.framework */; };
+		E7C5EB501D3000DD009AD837 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB4E1D3000DD009AD837 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7C5EB611D3009D1009AD837 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB601D3009D1009AD837 /* Unbox.framework */; };
+		E7C5EB621D3009D1009AD837 /* Unbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EB601D3009D1009AD837 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +31,164 @@
 			remoteGlobalIDString = E7A66AEA1D2FFA0D0020E201;
 			remoteInfo = ParseyMcParseFace;
 		};
+		E7AC99681D37ACAB00A44E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AC99631D37ACAA00A44E28 /* Mapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C20174831BD5509D00E4FE18;
+			remoteInfo = Mapper;
+		};
+		E7AC996A1D37ACAB00A44E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AC99631D37ACAA00A44E28 /* Mapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C201748D1BD5509D00E4FE18;
+			remoteInfo = MapperTests;
+		};
+		E7C5EB401D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAD9FACF19D0EAB50031E006;
+			remoteInfo = "Argo-iOS";
+		};
+		E7C5EB421D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAD9FADA19D0EAB60031E006;
+			remoteInfo = ArgoTests;
+		};
+		E7C5EB441D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F89335541A4CE83000B88685;
+			remoteInfo = "Argo-Mac";
+		};
+		E7C5EB461D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F893355E1A4CE83000B88685;
+			remoteInfo = "Argo-MacTests";
+		};
+		E7C5EB481D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0592EB61B77DD7800EFEF39;
+			remoteInfo = "Argo-watchOS";
+		};
+		E7C5EB4A1D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 809754C11BADF34100C409E6;
+			remoteInfo = "Argo-tvOS";
+		};
+		E7C5EB4C1D2FFC84009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 809754CA1BADF34200C409E6;
+			remoteInfo = "Argo-tvOSTests";
+		};
+		E7C5EB581D3000F6009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F88630561B4EF96200F53969;
+			remoteInfo = "Curry-iOS";
+		};
+		E7C5EB5A1D3000F6009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F886307D1B4EF9F800F53969;
+			remoteInfo = "Curry-Mac";
+		};
+		E7C5EB5C1D3000F6009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 804D01F31BA3684C0005BBC4;
+			remoteInfo = "Curry-watchOS";
+		};
+		E7C5EB5E1D3000F6009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80E059071BA9FA7F0077CBA7;
+			remoteInfo = "Curry-tvOS";
+		};
+		E7C5EB6D1D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D97C1BEFF229002C0205;
+			remoteInfo = "Unbox-iOS";
+		};
+		E7C5EB6F1D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6DA0F1BF000BD002C0205;
+			remoteInfo = "Unbox-OSX";
+		};
+		E7C5EB711D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9E21BEFFF6E002C0205;
+			remoteInfo = "Unbox-watchOS";
+		};
+		E7C5EB731D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9F01BEFFFBE002C0205;
+			remoteInfo = "Unbox-tvOS";
+		};
+		E7C5EB751D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52D6D9861BEFF229002C0205;
+			remoteInfo = "Unbox-iOS Tests";
+		};
+		E7C5EB771D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD75027A1C68FCFC006590AF;
+			remoteInfo = "Unbox-OSX Tests";
+		};
+		E7C5EB791D3009EA009AD837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD75028D1C690C7A006590AF;
+			remoteInfo = "Unbox-tvOS Tests";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7C5EB341D2FFBED009AD837 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7C5EB621D3009D1009AD837 /* Unbox.framework in Embed Frameworks */,
+				E7AC99591D37AC7100A44E28 /* Mapper.framework in Embed Frameworks */,
+				E7C5EB501D3000DD009AD837 /* Curry.framework in Embed Frameworks */,
+				E7C5EB331D2FFBED009AD837 /* Argo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E7A66AEB1D2FFA0D0020E201 /* ParseyMcParseFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseyMcParseFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +201,14 @@
 		E7A66AFF1D2FFA0D0020E201 /* ParseyMcParseFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseyMcParseFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A66B031D2FFA0D0020E201 /* ParseyMcParseFaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseyMcParseFaceTests.swift; sourceTree = "<group>"; };
 		E7A66B051D2FFA0D0020E201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AC99571D37AC7100A44E28 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Build/iOS/Mapper.framework; sourceTree = "<group>"; };
+		E7AC99631D37ACAA00A44E28 /* Mapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mapper.xcodeproj; path = Carthage/Checkouts/mapper/Mapper.xcodeproj; sourceTree = "<group>"; };
+		E7C5EB311D2FFBED009AD837 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Argo.xcodeproj; path = Carthage/Checkouts/Argo/Argo.xcodeproj; sourceTree = "<group>"; };
+		E7C5EB4E1D3000DD009AD837 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
+		E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Curry.xcodeproj; path = Carthage/Checkouts/Curry/Curry.xcodeproj; sourceTree = "<group>"; };
+		E7C5EB601D3009D1009AD837 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
+		E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Unbox.xcodeproj; path = Carthage/Checkouts/unbox/Unbox.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +216,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C5EB611D3009D1009AD837 /* Unbox.framework in Frameworks */,
+				E7AC99581D37AC7100A44E28 /* Mapper.framework in Frameworks */,
+				E7C5EB4F1D3000DD009AD837 /* Curry.framework in Frameworks */,
+				E7C5EB321D2FFBED009AD837 /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +239,7 @@
 				E7A66AED1D2FFA0D0020E201 /* ParseyMcParseFace */,
 				E7A66B021D2FFA0D0020E201 /* ParseyMcParseFaceTests */,
 				E7A66AEC1D2FFA0D0020E201 /* Products */,
+				E7C5EB7B1D305258009AD837 /* dependencies */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +274,69 @@
 			path = ParseyMcParseFaceTests;
 			sourceTree = "<group>";
 		};
+		E7AC99641D37ACAA00A44E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AC99691D37ACAB00A44E28 /* Mapper.framework */,
+				E7AC996B1D37ACAB00A44E28 /* MapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C5EB371D2FFC84009AD837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5EB411D2FFC84009AD837 /* Argo.framework */,
+				E7C5EB431D2FFC84009AD837 /* ArgoTests.xctest */,
+				E7C5EB451D2FFC84009AD837 /* Argo.framework */,
+				E7C5EB471D2FFC84009AD837 /* Argo-MacTests.xctest */,
+				E7C5EB491D2FFC84009AD837 /* Argo.framework */,
+				E7C5EB4B1D2FFC84009AD837 /* Argo.framework */,
+				E7C5EB4D1D2FFC84009AD837 /* Argo-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C5EB521D3000F6009AD837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5EB591D3000F6009AD837 /* Curry.framework */,
+				E7C5EB5B1D3000F6009AD837 /* Curry.framework */,
+				E7C5EB5D1D3000F6009AD837 /* Curry.framework */,
+				E7C5EB5F1D3000F6009AD837 /* Curry.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C5EB641D3009EA009AD837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5EB6E1D3009EA009AD837 /* Unbox.framework */,
+				E7C5EB701D3009EA009AD837 /* Unbox.framework */,
+				E7C5EB721D3009EA009AD837 /* Unbox.framework */,
+				E7C5EB741D3009EA009AD837 /* Unbox.framework */,
+				E7C5EB761D3009EA009AD837 /* Unbox-iOS Tests.xctest */,
+				E7C5EB781D3009EA009AD837 /* Unbox-OSX Tests.xctest */,
+				E7C5EB7A1D3009EA009AD837 /* Unbox-tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C5EB7B1D305258009AD837 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */,
+				E7AC99631D37ACAA00A44E28 /* Mapper.xcodeproj */,
+				E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */,
+				E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */,
+				E7AC99571D37AC7100A44E28 /* Mapper.framework */,
+				E7C5EB4E1D3000DD009AD837 /* Curry.framework */,
+				E7C5EB311D2FFBED009AD837 /* Argo.framework */,
+				E7C5EB601D3009D1009AD837 /* Unbox.framework */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +347,7 @@
 				E7A66AE71D2FFA0D0020E201 /* Sources */,
 				E7A66AE81D2FFA0D0020E201 /* Frameworks */,
 				E7A66AE91D2FFA0D0020E201 /* Resources */,
+				E7C5EB341D2FFBED009AD837 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +406,24 @@
 			mainGroup = E7A66AE21D2FFA0D0020E201;
 			productRefGroup = E7A66AEC1D2FFA0D0020E201 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7C5EB371D2FFC84009AD837 /* Products */;
+					ProjectRef = E7C5EB361D2FFC84009AD837 /* Argo.xcodeproj */;
+				},
+				{
+					ProductGroup = E7C5EB521D3000F6009AD837 /* Products */;
+					ProjectRef = E7C5EB511D3000F6009AD837 /* Curry.xcodeproj */;
+				},
+				{
+					ProductGroup = E7AC99641D37ACAA00A44E28 /* Products */;
+					ProjectRef = E7AC99631D37ACAA00A44E28 /* Mapper.xcodeproj */;
+				},
+				{
+					ProductGroup = E7C5EB641D3009EA009AD837 /* Products */;
+					ProjectRef = E7C5EB631D3009EA009AD837 /* Unbox.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E7A66AEA1D2FFA0D0020E201 /* ParseyMcParseFace */,
@@ -171,6 +431,149 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7AC99691D37ACAB00A44E28 /* Mapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mapper.framework;
+			remoteRef = E7AC99681D37ACAB00A44E28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7AC996B1D37ACAB00A44E28 /* MapperTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MapperTests.xctest;
+			remoteRef = E7AC996A1D37ACAB00A44E28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB411D2FFC84009AD837 /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = E7C5EB401D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB431D2FFC84009AD837 /* ArgoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArgoTests.xctest;
+			remoteRef = E7C5EB421D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB451D2FFC84009AD837 /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = E7C5EB441D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB471D2FFC84009AD837 /* Argo-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Argo-MacTests.xctest";
+			remoteRef = E7C5EB461D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB491D2FFC84009AD837 /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = E7C5EB481D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB4B1D2FFC84009AD837 /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = E7C5EB4A1D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB4D1D2FFC84009AD837 /* Argo-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Argo-tvOSTests.xctest";
+			remoteRef = E7C5EB4C1D2FFC84009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB591D3000F6009AD837 /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = E7C5EB581D3000F6009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB5B1D3000F6009AD837 /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = E7C5EB5A1D3000F6009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB5D1D3000F6009AD837 /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = E7C5EB5C1D3000F6009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB5F1D3000F6009AD837 /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = E7C5EB5E1D3000F6009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB6E1D3009EA009AD837 /* Unbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Unbox.framework;
+			remoteRef = E7C5EB6D1D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB701D3009EA009AD837 /* Unbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Unbox.framework;
+			remoteRef = E7C5EB6F1D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB721D3009EA009AD837 /* Unbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Unbox.framework;
+			remoteRef = E7C5EB711D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB741D3009EA009AD837 /* Unbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Unbox.framework;
+			remoteRef = E7C5EB731D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB761D3009EA009AD837 /* Unbox-iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unbox-iOS Tests.xctest";
+			remoteRef = E7C5EB751D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB781D3009EA009AD837 /* Unbox-OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unbox-OSX Tests.xctest";
+			remoteRef = E7C5EB771D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7C5EB7A1D3009EA009AD837 /* Unbox-tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unbox-tvOS Tests.xctest";
+			remoteRef = E7C5EB791D3009EA009AD837 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E7A66AE91D2FFA0D0020E201 /* Resources */ = {
@@ -327,6 +730,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ParseyMcParseFace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = al.skipp.ParseyMcParseFace;
@@ -338,6 +745,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ParseyMcParseFace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = al.skipp.ParseyMcParseFace;
@@ -388,6 +799,7 @@
 				E7A66B0A1D2FFA0D0020E201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A66B0B1D2FFA0D0020E201 /* Build configuration list for PBXNativeTarget "ParseyMcParseFaceTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +808,7 @@
 				E7A66B0D1D2FFA0D0020E201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
